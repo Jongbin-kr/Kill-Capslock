@@ -12,9 +12,6 @@ while True:
     print("input: ", end = '')
     raw = sys.stdin.readlines()
 
-    if len(raw) == 1:
-        raw_split = raw[0].split()
-        raw = raw_split
     
     print('raw: ', raw)
 
@@ -22,9 +19,10 @@ while True:
     for x in raw:
         try: 
             print("try: ", x)
-            prepro_x = re.search("[A-Za-z가-힣]+", x).group()
-            print(prepro_x)
-            prepro_list.append(prepro_x)
+            prepro_xs = re.findall("[A-Za-z가-힣]+", x)
+            print(prepro_xs)
+            for prepo_x in prepro_xs:
+                prepro_list.append(prepo_x)
         except: 
             print("except: ", x)
             print("!!!ERROR!!!")
@@ -38,4 +36,5 @@ while True:
     print('\n')
 
 
-##
+## 22.10.09. Add Except handlinh(input error, input only 1 line)
+#### 22.10.09. Modify Logic. (Use re.findall instead of split)
