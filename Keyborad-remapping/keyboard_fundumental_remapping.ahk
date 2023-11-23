@@ -10,8 +10,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;-----------------------------------------------------
 SetCapsLockState AlwaysOff
 
-CapsLock::Send {BackSpace}
-+CapsLock::Send, {Del}
+CapsLock & Space::Send {BackSpace}
+
+; Ctrl & Space::SendInput, {Space 4} ;; it overlaps whale quick search hotkeys
+
 
 
 CapsLock & e::End
@@ -30,17 +32,15 @@ CapsLock & i::Up
 CapsLock & k::Down
 
 
-CapsLock & Space::Enter
-
 ;------------------------------------------------------
 ;윈도우 기본 단축키 설정
 ;------------------------------------------------------
-;윈도우 작업표시줄 이동 단축키 win + (shift) + t => win + (shift) + q
-#q::#+t
+
 
 
 ;윈도우 Alt+F4 -> Alt+F1
 !F1::!F4
+
 
 
 ;윈도우 작업표시줄 단축키 win + num => CapsLock + num
@@ -55,18 +55,26 @@ CapsLock & 8::#8
 
 
 
+;------------------------------------------------------
+; 기타 단축키
+;------------------------------------------------------
 
-;--------------------------------------------------
+Pause::Run, calc  ; Pause key ->  calculator
+^!t:: Run, cmd ; ctrl + alt + t -> terminal like ubuntu
+
+
+
+;---------------------------------------------------
 ;풀배열 키보드 계산기용 스크립트
 ;---------------------------------------------------
 ;계산기에서 pageDown -> 콤마 입력
-PgDn::
-send `,
-send {Space}
-return
+;PgDn::
+;send `,
+;send {Space}
+;return
 
 ;계산기에서 PageUp -> 스페이스 입력
-PgUp::,
+;PgUp::,
 
 
 
