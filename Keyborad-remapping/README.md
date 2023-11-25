@@ -6,7 +6,7 @@
 
 1. `Keyboard_fundamental_remapping.ahk`
    - 제가 실제 사용중인 스크립트입니다.
-   - CapsLock키를 방향키 등으로 리패밍하는 스크립트(Kill-Capslo) 외에도, 서피스 프로의 키보드 입력을 방지하는 스크립트, 87키 키보드에서 계산기 단축키 등등의 스크립트가 포함되어 있습니다.
+   - 후술할 CapsLock키를 방향키 등으로 리패밍하는 스크립트(`Kill-Capslock.ahk`), 서피스 프로의 키보드 입력을 방지하는 스크립트(`Surface-pro-key-freeze.ahk`)외에도 87키 키보드에서 계산기 단축키 등등의 스크립트가 포함되어 있습니다.
 
 2. `Kill-Capslock.ahk`
    - CapsLock + WASD, IJKL / QE, UO키를 방향키 및 Home/End키로 리매핑하는 스크립트입니다.
