@@ -6,7 +6,7 @@
 
 1. Keyborad-remapping
    - AutoHotKey를 활용해 키보드를 리매핑하는 스크립트들이 들어있습니다.
-     - `Keyborad-remapping/keyboard_fundumental_remapping.ahk`. 제가 기본적으로 사용하는 스크립트입니다. 리매핑 내역 및 설명은 블로그에 좀 더 자세히 설명해두었습니다.
+     - 각각의 스크립트들에 대한 설명은 [해당 폴더](https://github.com/Jongbin-kr/toy_project/tree/main/Keyborad-remapping)의 README.md 파일을 참고하길 바랍니다.
     
 <br> 
 
