@@ -4,9 +4,17 @@
 
 각각의 스크립트들에 대한 설명은 다음과 같습니다.
 
+<<<<<<< HEAD
 1. `Keyboard_fundamental_remapping.ahk`
    - 제가 실제 사용중인 스크립트입니다.
    - CapsLock키를 방향키 등으로 리패밍하는 스크립트(Kill-Capslo) 외에도, 서피스 프로의 키보드 입력을 방지하는 스크립트, 87키 키보드에서 계산기 단축키 등등의 스크립트가 포함되어 있습니다.
+=======
+1. Keyborad-remapping
+   - AutoHotKey를 활용해 키보드를 리매핑하는 스크립트들이 들어있습니다.
+     - 각각의 스크립트들에 대한 설명은 [해당 폴더](https://github.com/Jongbin-kr/toy_project/tree/main/Keyborad-remapping)의 README.md 파일을 참고하길 바랍니다.
+    
+<br> 
+>>>>>>> c4547c0d3ec87d97194ed2d458be704646d6b046
 
 2. `Kill-Capslock.ahk`
    - CapsLock + WASD, IJKL / QE, UO키를 방향키 및 Home/End키로 리매핑하는 스크립트입니다.
