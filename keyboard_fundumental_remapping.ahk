@@ -57,7 +57,7 @@ CapsLock & 8::#8
 ;------------------------------------------------------
 
 Pause::Run, calc  ; Pause key ->  calculator
-^!t:: Run, cmd ; ctrl + alt + t -> terminal like ubuntu
+^!t:: Run, wt ; ctrl + alt + t -> terminal like ubuntu
 
 
 
